@@ -5,8 +5,7 @@
 ### December 2nd, 2024
 <br>
 <br>
-### Abstract
-<br>
+### Abstract \
 The Open Graph Benchmark organization comprises a team of developers from many industries who collect
 large datasets for machine learning algorithms. The "ogbg-molpcba" dataset contains a large collection
 of graphs that represent molecular data. This project aims to determine and identify the outliers in
