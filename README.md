@@ -4,34 +4,34 @@
 
 ### December 2nd, 2024
 <br>
-<br>
-### Abstract \
+
+### *asterisks*Abstract \
 The Open Graph Benchmark organization comprises a team of developers from many industries who collect
 large datasets for machine learning algorithms. The "ogbg-molpcba" dataset contains a large collection
 of graphs that represent molecular data. This project aims to determine and identify the outliers in
 molecular features. The anomaly detection model used for this project is the Graph Neural Network (GNN),
 utilizing the power of a Graphics Processing Unit (GPU). Given that molecules can take many
 shapes, it can be difficult to determine what exactly is an anomaly.
-<br>
-### Methods
-<br>
+
+### *asterisks*Methods
+
 The "ogbg-molpcba" dataset is available on the TensorFlow catalog website, which describes where the 
 data is from and where to find further information. Exploratory data analysis was conducted with the
 aid of online resources, such as the OGB website. https://ogb.stanford.edu/docs/graphprop/. At first,
 the AnomalyDetection model was considered for this project, but this model was found inefficient
 for modeling with graph data. The GNN model runs well with the dataloader type in particular. 
 Unfortunately, the same cannot be said for the advanced precision score.
-<br>
-### Conclusion
-<br>
+
+### *asterisks*Conclusion
+
 In conclusion, this project can initialize further studies in anomaly detection in molecular data 
 by scaling for more complex machine learning methods. The model captures intricate patterns that 
 represent the atoms and bonds within molecules. The GNN model used scored a 0.0102 precision score,
 which is not ideal. This is potentially due to impractical anomaly criteria. Moving forward, the 
 focus will be on anomalies that discover ways to progress molecular research.
-<br>
-### Statement of Business Value
-<br>
+
+### *asterisks*Statement of Business Value
+
 Anomaly detection of molecules could potentially be used for drug development, ecological studies, 
 research in nutrition, farming advancements, and molecular biology research. Researchers could use
 this model to find which molecules stand out and why, potentially leading to new discoveries. 
@@ -42,7 +42,7 @@ realized.
 <br>
 ### Citations
 <br>
-'''
+```
 # @inproceedings{DBLP:conf/nips/HuFZDRLCL20,
 #   author    = {Weihua Hu and
 #                Matthias Fey and
@@ -77,4 +77,4 @@ realized.
 # https://pytorch.org/docs/stable/index.html
 # https://medium.com/@techtes.com/graph-neural-networks-gnns-for-anomaly-detection-with-python-5dfc67e35acc
 # https://ogb.stanford.edu/docs/graphprop/
-'''
+```
