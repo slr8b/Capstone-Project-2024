@@ -1,7 +1,7 @@
 ## Capstone-Project-2024 
-<br>
+
 ### Symone Randle
-<br>
+
 ### December 2nd, 2024
 <br>
 <br>
